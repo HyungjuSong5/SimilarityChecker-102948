@@ -5,6 +5,12 @@ VisualStudioVersion = 17.14.36212.18 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "similarityChecker", "similarityChecker\similarityChecker.vcxproj", "{021735E6-AB0D-408A-995D-A29685617530}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션항목", "솔루션항목", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+	ProjectSection(SolutionItems) = preProject
+		..\tddbaseball\.gitignore = ..\tddbaseball\.gitignore
+		..\tddbaseball\README.md = ..\tddbaseball\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
