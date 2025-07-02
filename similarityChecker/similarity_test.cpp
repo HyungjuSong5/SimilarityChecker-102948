@@ -6,6 +6,7 @@ using namespace testing;
 class SimilarCheckerFixture : public testing::Test {
  public:
   SimilarChecker similarch;
+
   void characterLengthChecker(const string& firstString, const string& SecondString, double expected){
     double acutal = similarch.stringLengthChecker(firstString, SecondString);
     EXPECT_EQ(expected, acutal);
@@ -48,6 +49,7 @@ TEST_F(SimilarCheckerFixture, CountTheNumberAlpha_Same_Case2) {
 TEST_F(SimilarCheckerFixture, CountTheNumberAlpha_Part_Case1) {
   countingTheNumberSameAlpha("AA", "AAE", 20);
 }
+
 
 
 

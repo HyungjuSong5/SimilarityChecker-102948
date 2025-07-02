@@ -49,7 +49,9 @@ class SimilarChecker {
     int gap;
     double result;
 
+
     if (isCheckSameSring(string1, string2)) return 60;
+
 
     if (string1.size() > string2.size()) {
       if (string1.size() >= string2.size() * 2) return 0;
