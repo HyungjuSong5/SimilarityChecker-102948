@@ -23,7 +23,7 @@ class SimilarChecker {
     gap = longLen - shortLen;
     if (gap == 0) return 60;
 
-    result = 60 - (60 * gap / shortLen);
+    result = 60 - (60 * (1.0) * gap / shortLen);
     return result;
   }
 };
